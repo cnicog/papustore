@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contacto - PapuStore</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <a href="index.html" title="Inicio">🏠</a>
+      <div class="logo">PapuStore</div>
+      <a href="categorias.html">Categorías</a>
+    </div>
+    <div class="header-center">
+      <input type="text" placeholder="Buscar..." />
+    </div>
+    <div class="header-right">
+      <button>🛒</button>
+    </div>
+  </header>
+
+  <main>
+    <h2 class="seccion-titulo">Contacto</h2>
+    <form class="contacto-form" action="#" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required />
+
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" required />
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <footer>
+    <div class="footer-redes">
+      <h3>Síguenos</h3>
+      <ul>
+        <li><a href="#" target="_blank">Facebook</a></li>
+        <li><a href="#" target="_blank">Instagram</a></li>
+        <li><a href="#" target="_blank">Twitter</a></li>
+        <li><a href="#" target="_blank">TikTok</a></li>
+      </ul>
+    </div>
+    <div class="footer-botones">
+      <button>Ayuda</button>
+      <button onclick="window.location.href='contacto.html'">Contacto</button>
+      <button>Términos</button>
+    </div>
+  </footer>
+</body>
+</html>
